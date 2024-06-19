@@ -1,0 +1,55 @@
+body, html {
+    height: 100%;
+  }
+  .bg {
+    background-image: url("pokemon-stadium-1920-x-1080-wallpaper-n4vucrf9p26da65s.jpg");
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: 0;
+  }
+  .navbar-brand{
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+    position: absolute !important;
+    left: 390px;
+    top: 250px !important;
+    bottom: 1px !important;
+    text-align: center !important;
+  }
+#playerOne{
+  margin-right: 10%;
+  background-image: url("firebackground.png");
+  font-weight: bold;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+} 
+#playerTwo{
+  background-image: url("icebackground.png");
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-weight: bold;
+} 
+.pokemon{
+  display: flex;
+  z-index: 5;
+  justify-content: center;
+  position: absolute;
+  bottom:20%;right: 30%;
+width: 40%;
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+font-weight: bold;
+}
+#playerOneImage{
+  border: 10px solid gold;
+}
+#playerTwoImage{
+  border: 10px solid gold;
+}
+#pokeball{
+  height: 50%;
+  width: 50%;
+  position: absolute;
+  top: 10%;
+  z-index: 10;
+}
